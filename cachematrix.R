@@ -3,8 +3,8 @@
 
 ## Write a short comment describing this function
 
-#a function used to create a special matrix object that can cache its inverse 
-# computing the incerse of a square matrix can be done with the solve function in R 
+# a function used to create a special matrix object that can cache its inverse 
+# computing the inverse of a square matrix can be done with the solve function in R 
 # on the premise that the matrix supplied is invertible
 
 makeCacheMatrix <- function(x = matrix()) {
